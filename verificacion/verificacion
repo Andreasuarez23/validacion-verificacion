@@ -1,0 +1,6 @@
+method pr (x:int,y:int)returns (suma:int)
+requieres true 
+ensure suma <= 100
+{
+    suma:= x+y;
+}
